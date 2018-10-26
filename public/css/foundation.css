@@ -541,6 +541,9 @@ textarea {
   min-height: 0px;
   min-width: 0px;
   width: 100%; }
+.cell h5 {
+  font-family: 'Cabin', sans-serif;
+}
   .cell.auto {
     -ms-flex: 1 1 0px;
         flex: 1 1 0px; }
@@ -4985,8 +4988,10 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
     display: block; }
 
 .thumbnail {
+  max-height: 320px;
   display: inline-block;
   max-width: 100%;
+  width: 320px;
   margin-bottom: 1rem;
   border: solid 4px #fefefe;
   border-radius: 0;
