@@ -1,0 +1,63 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Flex Panel",
+            "description": "A flexbox gallery",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://ovio224.github.io/Flex-Panel-Gallery/",
+            "github_link": "https://github.com/Ovio224/Flex-Panel-Gallery",
+            "image_urls": ["../static/img/flex/550.png", "../static/img/flex/landscape.png", "../static/img/flex/landscape2.png", "../static/img/flex/landscape3.png"]
+        },
+
+        {
+            "id": 1,
+            "project_name": "Random Quote Generator",
+            "description": "An app that displays random famous quotes each time a button is clicked or by waiting an interval of time",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://ovio224.github.io/Random-Quote-Generator/",
+            "github_link": "https://github.com/Ovio224/Random-Quote-Generator",
+            "image_urls": ["../static/img/p1/rgq.png", "../static/img/p1/rgq1.png", "../static/img/p1/rqg.PNG"]
+        },
+
+        {
+            "id": 2,
+            "project_name": "List pagination and filtering",
+            "description": "A list of students with pagination and a search method",
+            "technologies": ["JavaScript", "jQuery"],
+            "live_link": "https://ovio224.github.io/List-Pagination-and-Filtering/",
+            "github_link": "https://github.com/Ovio224/List-Pagination-and-Filtering",
+            "image_urls": ["../static/img/p2/1st.png", "../static/img/p2/landscape.png", "../static/img/p2/landscape2.png", "../static/img/p2/landscape3.png"]
+        },
+
+        {
+            "id": 3,
+            "project_name": "Interactive Form",
+            "description": "A form with form validations and interactivity",
+            "technologies": ["JavaScript", "jQuery", "CSS", "HTML"],
+            "live_link": "https://ovio224.github.io/Interactive-Form/",
+            "github_link": "https://github.com/Ovio224/Interactive-Form",
+            "image_urls": ["../static/img/p3/550.png", "../static/img/p3/landscape.png", "../static/img/p3/landscape2.png", "../static/img/p3/landscape3.png"]
+        },
+
+        {
+            "id": 4,
+            "project_name": "Phrase Hunter Game OOP",
+            "description": "Phrase hunter game with Object Oriented JavaScript",
+            "technologies": ["JavaScript", "Object Oriented Programming", "CSS", "HTML"],
+            "live_link": "https://ovio224.github.io/Phrase-Hunter-Game-OOP/",
+            "github_link": "https://github.com/Ovio224/Phrase-Hunter-Game-OOP",
+            "image_urls": ["../static/img/p4/550.png", "../static/img/p4/landscape1.png", "../static/img/p4/landscape2.png", "../static/img/p4/landscape3.png"]
+        },
+
+        {
+            "id": 5,
+            "project_name": "Employee Directory API",
+            "description": "An employee directory using the randomuser API",
+            "technologies": ["JavaScript", "API", "Asynchronous Programming", "jQuery", "CSS", "HTML"],
+            "live_link": "https://ovio224.github.io/Employee-Directory-API/",
+            "github_link": "https://github.com/Ovio224/Employee-Directory-API",
+            "image_urls": ["../static/img/p5/550x.png", "../static/img/p5/landscapeWidth.png", "../static/img/p5/landscape.png"]
+        }
+    ]
+}

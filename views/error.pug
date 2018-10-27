@@ -1,0 +1,41 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title Portofolio | Error
+    link(href='https://fonts.googleapis.com/css?family=Cabin:400,700', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Montserrat:900', rel='stylesheet')
+    link(type='text/css', rel='stylesheet', href='static/css/404.css')
+  body
+   if err.status == 404
+    #notfound
+      .notfound
+        .notfound-404
+          h3 Oops! Page not found
+          h1
+            span 4
+            span 0
+            span 4
+        h2 we are sorry, but the page you requested was not found
+        a.home(href='/') Go Home
+   else
+    #notfound
+      .notfound
+        .notfound-404
+          h3 #{err.message} ⇩ occured
+          h1
+            - err.status = err.status.toString()
+            each val in err.status
+                - val = val.charAt(0);
+                span= val
+        br
+        a.home(href='/') Go Home
+        br
+        br
+        h2 so sorry! press <a href="#", class="errstack">here</a> to see more info!
+        br
+        span.stack= err.stack
+
+script(src="/static/js/app.js")
