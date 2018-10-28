@@ -148,3 +148,15 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+.next{
+  background-color: #DE4313;
+}
+
+.next:hover{
+  background-color: #85280B;
+}
+
+article img.thumbnail:hover {
+  transform: scale(0.9);
+}

@@ -13,18 +13,24 @@ html(lang='en')
     #notfound
       .notfound
         .notfound-404
-          h3 Oops! Page not found
+          h3 Oops! #{err.message} | Status code ⇩
           h1
             span 4
             span 0
             span 4
         h2 we are sorry, but the page you requested was not found
+        br
         a.home(href='/') Go Home
+        br
+        br
+        h2 sorry! press <a href="#", class="errstack">here</a> to see more info!
+        br
+        span.stack= err.stack
    else
     #notfound
       .notfound
         .notfound-404
-          h3 #{err.message} ⇩ occured
+          h3 #{err.message}|Status code ⇩
           h1
             - err.status = err.status.toString()
             each val in err.status
@@ -34,7 +40,7 @@ html(lang='en')
         a.home(href='/') Go Home
         br
         br
-        h2 so sorry! press <a href="#", class="errstack">here</a> to see more info!
+        h2 sorry! press <a href="#", class="errstack">here</a> to see more info!
         br
         span.stack= err.stack
 

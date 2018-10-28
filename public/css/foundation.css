@@ -4988,6 +4988,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
     display: block; }
 
 .thumbnail {
+  transition: 0.3s ease;
   max-height: 320px;
   display: inline-block;
   max-width: 100%;
