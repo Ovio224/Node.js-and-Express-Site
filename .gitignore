@@ -61,3 +61,9 @@ node_modules
 
 # next.js build output
 .next
+example-html/about.html
+example-html/index.html
+example-html/project.html
+mockups/about-page.png
+mockups/index-page.png
+mockups/project-page.png
