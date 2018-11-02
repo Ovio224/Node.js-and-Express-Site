@@ -2,7 +2,7 @@
   "name": "nodejs-and-express-site",
   "version": "1.0.0",
   "description": "A portofolio made to showcase my projects, which is made with Express.js",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
