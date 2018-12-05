@@ -27,6 +27,6 @@ app.use((err, req, res, next) => {
     res.render('error')
 });
 
-app.listen(3000, () => {
-    console.log('The app is running on localhost:3000');
-});
+http.listen(process.env.PORT || 3000, function(){
+    console.log('listening on', http.address().port);
+  });
