@@ -27,6 +27,6 @@ app.use((err, req, res, next) => {
     res.render('error')
 });
 
-http.listen(process.env.PORT || 3000, function(){
-    console.log('listening on', http.address().port);
-  });
+app.listen(process.env.PORT || 4000, function(){
+    console.log('Your node js server is running');
+});
